@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="report_module_name_report_template" model="ir.actions.report">
+            <field name="name">Invoices 80</field>
+            <field name="model">account.move</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="paperformat_id" ref="account_move.paperformat_session_report"/>
+            <field name="report_name">account_move.report_invoice</field>
+            <field name="report_file">account_move.report_invoice</field>
+            <field name="binding_model_id" ref="account.model_account_move"/>
+            <field name="binding_type">report</field>
+        </record>
+        <!--        <report-->
+        <!--                id="report_module_name_report_template"-->
+        <!--                model="account.move"-->
+        <!--                string="Invoices 80mm"-->
+        <!--                report_type="qweb-pdf"-->
+        <!--                paperformat="account_move.paperformat_session_report"-->
+        <!--                name="account_move.report_invoice"-->
+        <!--                file="account_move.report_invoice"-->
+        <!--                attachment_use="False"-->
+        <!--        />-->
+    </data>
+</odoo>

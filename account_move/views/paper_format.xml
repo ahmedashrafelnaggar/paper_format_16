@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--    <data>-->
+    <record id="paperformat_session_report" model="report.paperformat">
+    <!--        <field name="name">A4 session report</field>-->
+    <!--        <field name="default" eval="False"/>-->
+    <!--        <field name="format">custom</field>-->
+    <!--        <field name="page_height">200</field>-->
+    <!--        <field name="page_width">80</field>-->
+    <!--        <field name="orientation">Portrait</field>-->
+    <!--        <field name="margin_top">10</field>-->
+    <!--        <field name="margin_bottom">0</field>-->
+    <!--        <field name="margin_left">10</field>-->
+    <!--        <field name="margin_right">10</field>-->
+    <!--        <field name="header_line" eval="False"/>-->
+    <!--        <field name="header_spacing">35</field>-->
+    <!--        <field name="dpi">90</field>-->
+    <!--    </record>-->
+    <!--        <field name="name">Custom Paper</field>-->
+    <!--        <field name="default" eval="True"/>-->
+    <!--        <field name="format">custom</field>-->
+    <!--        <field name="page_height">297</field>-->
+    <!--        <field name="page_width">500</field>-->
+    <!--        <field name="orientation">Portrait</field>-->
+    <!--        <field name="margin_top">10.00</field>-->
+    <!--        <field name="margin_bottom">10.00</field>-->
+    <!--        <field name="margin_left">7.0</field>-->
+    <!--        <field name="margin_right">7.0</field>-->
+    <!--        <field name="header_line" eval="False"/>-->
+    <!--        <field name="header_spacing">35</field>-->
+    <!--        <field name="dpi">125</field>-->
+    <!--    </record>-->
+    <!--    </data>-->
+<!--    <record id="paperformat_session_report" model="report.paperformat">-->
+        <field name="name">French Bank Check</field>
+        <field name="default" eval="True"/>
+        <field name="format">custom</field>
+        <field name="page_height">200</field>
+        <field name="page_width">80</field>
+        <field name="orientation">Portrait</field>
+        <field name="margin_top">5</field>
+        <field name="margin_bottom">5</field>
+        <field name="margin_left">5</field>
+        <field name="margin_right">5</field>
+        <field name="header_line" eval="False"/>
+        <field name="header_spacing">3</field>
+        <field name="dpi">90</field>
+    </record>
+</odoo>
