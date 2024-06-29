@@ -154,7 +154,7 @@
                                     <strong>Customer Code:</strong>
                                     <p class="m-0" t-field="o.partner_id.ref"/>
                                 </div>
-                                <div class="col-auto col-3 mw-100 mb-2" t-if="o.state == 'posted'" name="reference">
+                                <div class="col-auto col-3 mw-100 mb-2" t-if="o.sequence_number" name="reference">
                                     <strong>Reference:</strong>
                                     <p class="m-0" t-field="o.sequence_number"/>
                                 </div>
